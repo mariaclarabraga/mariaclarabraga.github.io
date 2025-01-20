@@ -1,3 +1,3 @@
 function sayHello() {
-    alert("Hello from GitHub Pages!");
+    alert("it worked :)");
 }
