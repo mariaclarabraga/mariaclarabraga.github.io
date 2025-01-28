@@ -1,18 +1,20 @@
-@font-face { font-family: Calibri; src: url('calibri.ttf'); } 
+@font-face { font-family: cal; src: url('fonts/calibri.ttf'); } 
+@font-face { font-family: osw; src: url('fonts/Oswald-VariableFont_wght.ttf'); } 
+
+h1{  margin: 0; }
+h2{ margin: 0; }
+
 body {
-    
     background-color: rgb(5, 5, 5);
     color: rgb(255, 255, 255);
-    font-family: Calibri;
+    font-family: cal;
     text-align: center;
     margin: 0;
-    padding: 20px;
+    padding: 0;
 }
 button {
-    font-family: Calibri;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    background-color: rgb(171, 211, 86);
+    font-family: osw;
+    background-color: rgb(155, 198, 61);
     color: black;
     border: none;
     font-style: bold;
@@ -29,6 +31,7 @@ button:hover {
     padding-top: 0;
     color:rgb(147, 147, 147);
     font-size: min(4vw,  30px);
+    font-family: cal;
 }
 
 .image-container {
@@ -96,4 +99,5 @@ button:hover {
     background-color: #0056b3;
   }
 
-  
+  .small-spacer{height: 20px; width: 100%;}
+  .large-spacer{height: 60px; width: 100%;}
