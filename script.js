@@ -1,3 +1,3 @@
-function sayHello() {
-    alert("it worked :)");
+function openlink(link) {
+    window.open(link);
 }
