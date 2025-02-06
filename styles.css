@@ -5,7 +5,7 @@ h1{  margin: 0; }
 h2{ margin: 0; }
 
 body {
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(4, 4, 4);
     color: rgb(255, 255, 255);
     font-family: cal;
     text-align: center;
@@ -29,8 +29,8 @@ button:hover {
 
 .gray-heading {
     padding-top: 0;
-    color:rgb(147, 147, 147);
-    font-size: min(4vw,  30px);
+    color:rgb(191, 191, 191);
+    font-size: min(6vw,  40px);
     font-family: cal;
 }
 
@@ -101,3 +101,49 @@ button:hover {
 
   .small-spacer{height: 20px; width: 100%;}
   .large-spacer{height: 60px; width: 100%;}
+  .vertical-spacer{height: 100% ;width: 5vw}
+
+  .link {
+    text-decoration: none;
+    font-family: cal;
+    font-weight: bold;
+    color:rgb(118, 118, 118);
+    
+  }
+
+  .link:hover {
+    color:rgb(193, 193, 193);
+  }
+
+  .gallery {
+    display: flex; 
+    margin-left: auto; 
+    margin-right: auto; 
+    align-items: center; 
+    justify-content: center;
+    height: min(35vw, 300px);
+    width: fit-content; 
+    max-width: 700px;
+    padding-top: 5%;
+  }
+
+  .galleryimage{
+    height: 80%;
+    text-align: center ;
+  }
+
+  .imagetxt {
+    color: #969696;
+    font-style: italic;
+    width: 100%;
+    font-size: 2vw;
+  }
+
+  .galleryimage img {
+    align-self: center;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 80%;
+    border-radius: 15px;
+  }
