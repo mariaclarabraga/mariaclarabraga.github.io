@@ -251,7 +251,7 @@ button:hover {
 }
 
 #navbar ul li a {
-  color: white;
+  color: rgb(157, 156, 156);
   text-decoration: none;
   font-size: 18px;
   padding: 10px;
